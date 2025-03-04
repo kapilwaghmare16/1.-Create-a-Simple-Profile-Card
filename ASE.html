@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .profile-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .profile-designation {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .profile-bio {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="KAPILIMG.jpg" alt="Profile Picture" class="profile-image">
+        <div class="profile-name">Kapil Waghmare</div>
+        <div class="profile-designation">Web Developer</div>
+        <div class="profile-bio">Passionate about building web applications and learning new technologies.</div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1EMsBNhjyL/"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/kapil-waghmare-63ab70211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kapilwaghmare16"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</body>
+</html>
